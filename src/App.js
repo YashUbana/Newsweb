@@ -1,7 +1,7 @@
 import './App.css';
-import Fetchapi from './components/Fetchapi';
+// import Fetchapi from './components/Fetchapi';
 import News from './components/News';
-import Newsitem from './components/Newsitem';
+// import Newsitem from './components/Newsitem';
 function App() {
   return (
     <div className="App">

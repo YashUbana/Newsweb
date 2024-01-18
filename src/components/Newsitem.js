@@ -3,7 +3,7 @@ import React from 'react'
 export default function Newsitem(props) {
   return (
     <div>
-        <a href={props.urlpage} target="_blank">
+        <a href={props.urlpage} target="_blank" rel="noreferrer">
         <div className='card'>
             <center><img src={props.image} alt='AA' style={{width:"200px", height:"200px", }}/></center>
             <div className='texts'>
